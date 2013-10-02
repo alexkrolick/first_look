@@ -9,7 +9,10 @@ Open a python terminal and switch to the directory containing first_look.py and 
 
 ```python
 import first_look as fl
-fl.look("examples/carbon_fiber_test_data.tsv",plot_type="scatter",ylabel="Micro-Strain",xlabel="Load (lbs)")
+fl.look("examples/carbon_fiber_test_data.tsv",
+plot_type="scatter",
+ylabel="Micro-Strain",
+xlabel="Load (lbs)")
 
 ```
 
